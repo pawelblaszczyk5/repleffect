@@ -15,24 +15,6 @@ env:
   TURBO_TEAM: ${{ vars.TURBO_TEAM }}
 
 jobs:
-  build:
-    name: 🛠️ Build
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # pin@v4.1.1
-
-      - name: Setup
-        uses: ./.github/composite-actions/setup
-
-      - name: Create database file
-        run: touch apps/website/local/sqlite.db
-
-      - name: Run
-        env:
-          DATABASE_LOCAL_URL: file:local/sqlite.db
-        run: pnpm build
-
   lint:
     name: 🔬 Lint
     runs-on: ubuntu-latest
