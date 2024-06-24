@@ -20,14 +20,14 @@
 		"#src/*": "./src/*"
 	},
 	"dependencies": {
-		"react": "0.0.0-experimental-6230622a1a-20240610",
-		"react-dom": "0.0.0-experimental-6230622a1a-20240610",
-		"@repleffect/assert": "workspace:*",
-		"@repleffect/api": "workspace:*",
+		"@effect/platform": "^0.58.9",
 		"@effect/rpc": "^0.31.9",
 		"@effect/rpc-http": "^0.29.9",
-		"@effect/platform": "^0.58.9",
-		"effect": "^3.2.9"
+		"@repleffect/api": "workspace:*",
+		"@repleffect/assert": "workspace:*",
+		"effect": "^3.2.9",
+		"react": "0.0.0-experimental-6230622a1a-20240610",
+		"react-dom": "0.0.0-experimental-6230622a1a-20240610"
 	},
 	"devDependencies": {
 		"@repleffect/eslint-config": "workspace:*",
@@ -35,6 +35,7 @@
 		"@types/react": "npm:types-react@19.0.0-rc.0",
 		"@types/react-dom": "npm:types-react-dom@19.0.0-rc.0",
 		"@vitejs/plugin-react": "^4.3.1",
+		"babel-plugin-react-compiler": "0.0.0-experimental-938cd9a-20240601",
 		"typescript": "^5.5.2",
 		"vite": "^5.3.1"
 	}
