@@ -1,0 +1,36 @@
+{
+	"name": "@repleffect/website",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/pawelblaszczyk5/repleffect",
+		"directory": "apps/website"
+	},
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"lint": "eslint",
+		"lint:fix": "eslint --fix",
+		"preview": "vite preview",
+		"typecheck": "tsc -b"
+	},
+	"imports": {
+		"#src/*": "./src/*"
+	},
+	"dependencies": {
+		"react": "0.0.0-experimental-6230622a1a-20240610",
+		"react-dom": "0.0.0-experimental-6230622a1a-20240610",
+		"@repleffect/assert": "workspace:*"
+	},
+	"devDependencies": {
+		"@repleffect/eslint-config": "workspace:*",
+		"@repleffect/typescript-config": "workspace:*",
+		"@types/react": "npm:types-react@19.0.0-rc.0",
+		"@types/react-dom": "npm:types-react-dom@19.0.0-rc.0",
+		"@vitejs/plugin-react": "^4.3.1",
+		"typescript": "^5.2.2",
+		"vite": "^5.3.1"
+	}
+}

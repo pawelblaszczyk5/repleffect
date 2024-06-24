@@ -1,0 +1,11 @@
+{
+	"extends": ["@repleffect/typescript-config/core"],
+	"compilerOptions": {
+		"composite": true,
+
+		"lib": ["ESNext"],
+		"noEmit": true,
+		"jsx": "preserve"
+	},
+	"include": ["vite.config.ts"]
+}
