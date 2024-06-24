@@ -1,0 +1,24 @@
+{
+	"name": "@repleffect/assert",
+	"version": "0.0.1",
+	"private": true,
+	"description": "Assert utility function",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/pawelblaszczyk5/repleffect",
+		"directory": "packages/assert"
+	},
+	"type": "module",
+	"main": "./src/index.ts",
+	"types": "./src/index.ts",
+	"scripts": {
+		"lint": "eslint",
+		"lint:fix": "eslint --fix",
+		"typecheck": "tsc"
+	},
+	"devDependencies": {
+		"@repleffect/eslint-config": "workspace:*",
+		"@repleffect/typescript-config": "workspace:*",
+		"typescript": "^5.5.2"
+	}
+}

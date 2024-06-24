@@ -1,0 +1,19 @@
+# dependencies
+node_modules/
+
+# testing
+coverage/
+
+# artifacts
+.turbo/
+*.tsbuildinfo
+out/
+dist/
+
+# misc
+.DS_Store
+*.pem
+pnpm-debug.log*
+
+# local env files
+.env*.local
