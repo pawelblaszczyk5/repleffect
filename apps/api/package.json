@@ -29,12 +29,12 @@
 		}
 	},
 	"dependencies": {
-		"@effect/platform": "^0.58.9",
-		"@effect/platform-node": "^0.53.8",
-		"@effect/rpc": "^0.31.9",
-		"@effect/rpc-http": "^0.29.9",
-		"@effect/schema": "^0.68.9",
-		"effect": "^3.2.9"
+		"@effect/platform": "~0.58.9",
+		"@effect/platform-node": "~0.53.8",
+		"@effect/rpc": "~0.31.9",
+		"@effect/rpc-http": "~0.29.9",
+		"@effect/schema": "~0.68.9",
+		"effect": "~3.4.2"
 	},
 	"devDependencies": {
 		"@repleffect/eslint-config": "workspace:*",

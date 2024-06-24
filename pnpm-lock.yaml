@@ -39,22 +39,22 @@ importers:
   apps/api:
     dependencies:
       '@effect/platform':
-        specifier: ^0.58.9
+        specifier: ~0.58.9
         version: 0.58.9(@effect/schema@0.68.9(effect@3.4.2))(effect@3.4.2)
       '@effect/platform-node':
-        specifier: ^0.53.8
+        specifier: ~0.53.8
         version: 0.53.8(@effect/platform@0.58.9(@effect/schema@0.68.9(effect@3.4.2))(effect@3.4.2))(effect@3.4.2)
       '@effect/rpc':
-        specifier: ^0.31.9
+        specifier: ~0.31.9
         version: 0.31.9(@effect/platform@0.58.9(@effect/schema@0.68.9(effect@3.4.2))(effect@3.4.2))(@effect/schema@0.68.9(effect@3.4.2))(effect@3.4.2)
       '@effect/rpc-http':
-        specifier: ^0.29.9
+        specifier: ~0.29.9
         version: 0.29.9(@effect/platform@0.58.9(@effect/schema@0.68.9(effect@3.4.2))(effect@3.4.2))(@effect/schema@0.68.9(effect@3.4.2))(effect@3.4.2)
       '@effect/schema':
-        specifier: ^0.68.9
+        specifier: ~0.68.9
         version: 0.68.9(effect@3.4.2)
       effect:
-        specifier: ^3.2.9
+        specifier: ~3.4.2
         version: 3.4.2
     devDependencies:
       '@repleffect/eslint-config':
@@ -76,13 +76,13 @@ importers:
   apps/website:
     dependencies:
       '@effect/platform':
-        specifier: ^0.58.9
+        specifier: ~0.58.9
         version: 0.58.9(@effect/schema@0.68.9(effect@3.4.2))(effect@3.4.2)
       '@effect/rpc':
-        specifier: ^0.31.9
+        specifier: ~0.31.9
         version: 0.31.9(@effect/platform@0.58.9(@effect/schema@0.68.9(effect@3.4.2))(effect@3.4.2))(@effect/schema@0.68.9(effect@3.4.2))(effect@3.4.2)
       '@effect/rpc-http':
-        specifier: ^0.29.9
+        specifier: ~0.29.9
         version: 0.29.9(@effect/platform@0.58.9(@effect/schema@0.68.9(effect@3.4.2))(effect@3.4.2))(@effect/schema@0.68.9(effect@3.4.2))(effect@3.4.2)
       '@repleffect/api':
         specifier: workspace:*
@@ -91,7 +91,7 @@ importers:
         specifier: workspace:*
         version: link:../../packages/assert
       effect:
-        specifier: ^3.2.9
+        specifier: ~3.4.2
         version: 3.4.2
       react:
         specifier: 0.0.0-experimental-6230622a1a-20240610
