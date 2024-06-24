@@ -18,4 +18,10 @@ export default [
 			"import-x/no-default-export": "off",
 		},
 	},
+	{
+		files: ["src/declarations/**/*"],
+		rules: {
+			"spaced-comment": "off",
+		},
+	},
 ];
