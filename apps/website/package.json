@@ -22,7 +22,12 @@
 	"dependencies": {
 		"react": "0.0.0-experimental-6230622a1a-20240610",
 		"react-dom": "0.0.0-experimental-6230622a1a-20240610",
-		"@repleffect/assert": "workspace:*"
+		"@repleffect/assert": "workspace:*",
+		"@repleffect/api": "workspace:*",
+		"@effect/rpc": "^0.31.9",
+		"@effect/rpc-http": "^0.29.9",
+		"@effect/platform": "^0.58.9",
+		"effect": "^3.2.9"
 	},
 	"devDependencies": {
 		"@repleffect/eslint-config": "workspace:*",

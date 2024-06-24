@@ -1,0 +1,46 @@
+{
+	"name": "@repleffect/api",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/pawelblaszczyk5/repleffect",
+		"directory": "apps/api"
+	},
+	"scripts": {
+		"dev": "tsx watch --clear-screen=false src/app.ts --type=server",
+		"build": "esbuild src/app.ts --bundle --platform=node --outfile=dist/app.js",
+		"lint": "eslint",
+		"lint:fix": "eslint --fix",
+		"typecheck": "tsc"
+	},
+	"imports": {
+		"#src/*": "./src/*"
+	},
+	"exports": {
+		"./router": {
+			"import": "./src/app.ts",
+			"types": "./src/app.ts"
+		},
+		"./schema": {
+			"import": "./src/schema.ts",
+			"types": "./src/schema.ts"
+		}
+	},
+	"dependencies": {
+		"@effect/platform": "^0.58.9",
+		"@effect/platform-node": "^0.53.8",
+		"@effect/rpc": "^0.31.9",
+		"@effect/rpc-http": "^0.29.9",
+		"@effect/schema": "^0.68.9",
+		"effect": "^3.2.9"
+	},
+	"devDependencies": {
+		"@repleffect/eslint-config": "workspace:*",
+		"@repleffect/typescript-config": "workspace:*",
+		"@types/node": "^20.14.8",
+		"esbuild": "^0.21.5",
+		"tsx": "^4.7.2"
+	}
+}

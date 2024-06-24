@@ -1,0 +1,9 @@
+{
+	"extends": ["@repleffect/typescript-config/core"],
+	"compilerOptions": {
+		"lib": ["esnext"],
+		"noEmit": true,
+		"types": ["node"]
+	},
+	"include": ["src"]
+}
