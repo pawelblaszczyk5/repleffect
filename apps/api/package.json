@@ -10,7 +10,7 @@
 	},
 	"scripts": {
 		"dev": "tsx watch --clear-screen=false src/app.ts --type=server",
-		"build": "esbuild src/app.ts --bundle --platform=node --outfile=dist/app.js",
+		"build": "esbuild src/app.ts --bundle --platform=node --outfile=dist/app.cjs",
 		"lint": "eslint",
 		"lint:fix": "eslint --fix",
 		"typecheck": "tsc"
