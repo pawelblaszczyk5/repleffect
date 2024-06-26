@@ -13,10 +13,12 @@
 			"cache": false
 		},
 		"build": {
-			"dependsOn": ["^build"]
+			"dependsOn": ["^build"],
+			"outputs": ["dist/"]
 		},
 		"typecheck": {
-			"dependsOn": ["^topo"]
+			"dependsOn": ["^topo"],
+			"outputs": ["node_modules/.cache/tsbuildinfo/"]
 		},
 		"dev": {
 			"cache": false,
