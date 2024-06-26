@@ -2,14 +2,14 @@
 	"$schema": "https://turbo.build/schema.json",
 	"globalPassThroughEnv": [],
 	"tasks": {
-		"topo": {
-			"dependsOn": ["^topo"]
+		"transit": {
+			"dependsOn": ["^transit"]
 		},
 		"lint": {
-			"dependsOn": ["^topo"]
+			"dependsOn": ["^transit"]
 		},
 		"lint:fix": {
-			"dependsOn": ["^topo"],
+			"dependsOn": ["^transit"],
 			"cache": false
 		},
 		"build": {
@@ -17,7 +17,7 @@
 			"outputs": ["dist/"]
 		},
 		"typecheck": {
-			"dependsOn": ["^topo"],
+			"dependsOn": ["^transit"],
 			"outputs": ["node_modules/.cache/tsbuildinfo/"]
 		},
 		"dev": {
