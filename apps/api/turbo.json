@@ -11,7 +11,7 @@
 		},
 		"typecheck": {
 			"inputs": ["$TURBO_DEFAULT$", "!README.md"],
-			"outputs": ["tsconfig.tsbuildinfo"]
+			"outputs": ["node_modules/.cache/tsbuildinfo/"]
 		}
 	}
 }

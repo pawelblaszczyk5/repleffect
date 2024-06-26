@@ -6,7 +6,6 @@ coverage/
 
 # artifacts
 .turbo/
-*.tsbuildinfo
 out/
 dist/
 
